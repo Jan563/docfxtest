@@ -1,5 +1,12 @@
 - name: Introduction
   href: intro.md
-- name: Kubernetes
+- name: Postavitev Kubernetes v Azure
   href: ena.md
+- name: Build in deploy Angular aplikacije v Kubernetes
+  href: dva.md
+- name: Opis Devops pipeline za build docker image-a in deploy Docker hub
+  href: tri.md
+- name: Build in deploy MarkDown dokumentacije v FireStore hosting
+  href: stiri.md
+  
 
