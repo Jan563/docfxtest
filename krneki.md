@@ -22,7 +22,7 @@ Pri vseh docker taskih potrebujemo delujoč service connection.
 
 Agent Job naj bo linux, saj so v primeru Windows bile neke komplikacije.
 
-![Build slika](https://i.imgur.com/4UP3vvW.png)
+![Build slika](/images/pic1.png)
 
 ### 'Release' faza
 Nato skočimo v 'Releases' zavihek, kjer ustvarimo nov release in kot artifact določimo ta build. V proženju lahko izberemo, ali se release izvaja ročno ali avtomatsko po uspešno končanem buildu.
@@ -33,7 +33,7 @@ Pri release imamo dva načina postavitve storitve:
    - $(Release.ReleaseId) --image=janp110191/jan-repo:$(Build.BuildId) --port=80
    - Pri **expose** pa: deployment $(Release.ReleaseId) --name=service-$(Release.ReleaseId) --type=LoadBalancer --port=3000 --target-port=80
 
-![Build slika](https://i.imgur.com/NDnZjIH.png)
+![Release slika](/images/pic2.png)
 
 2. **YAML navodili**
   S tem primerom naredimo enako '*Deploy to Kubernetes*' task, v katerem uporabimo '**apply**'. Tam kličemo našo YAML datoteko, ki bi jo vključili v naš GitHub repozitorij. (YAML mora vsebovati navodila za deployment in service tipa LoadBalancer)
@@ -69,7 +69,7 @@ Kreiranje servisa za nek deployment:
 
 **Persistent volumes**
 
-![Slika deploy](./images/volume1.PNG)
+![Slika deploy](/images/volume1.PNG)
 
 Kot se vidi na sliki, potrebujemo za persistent volume deployment, Persistent Volume claim zanj, Storage Class, Persistent volume sam in pa secret.
 Postopek je bolje opisan [na tem linku](https://pascalnaber.wordpress.com/2018/01/26/persistent-storage-and-volumes-using-kubernetes-on-azure-with-aks-or-azure-container-service/)*(pod 'Static Persistent Volume')*
