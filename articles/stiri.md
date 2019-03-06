@@ -4,7 +4,7 @@
 
 Da postavimo DocFX, moramo uporabiti Chocolatey ali pa povlečemo .zip datoteko iz DocFX GitHub strani. To extractamo v našo projektno mapo, kateri dodamo PATH v Windows, da lahko kličemo docfx.exe iz Command Prompta.
 Nato lahko v **cmd** inštaliramo DocFX z ukazom: '*docfx init -q*'
-[Več informacij je na tej povezavi] (https://kvaes.wordpress.com/2018/06/13/generating-a-docs-website-powered-by-git-markdown/#jp-carousel-4361)
+[Več informacij je na tej povezavi](https://kvaes.wordpress.com/2018/06/13/generating-a-docs-website-powered-by-git-markdown/#jp-carousel-4361)
 
 ## 'Build' faza
 1. **Chocolatey**
