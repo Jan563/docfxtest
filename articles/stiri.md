@@ -13,7 +13,9 @@
    - _site (To mapo kreira klic docfx.json-a.)
 
    Display names so poljubna.
+   
    [Primer **deploy.ps1**](https://github.com/Jan563/docfxtest/blob/master/deploy.ps1)
+   
    [Primer **firebase.json**](https://github.com/Jan563/docfxtest/blob/master/firebase.json)
 ## 'Release' faza
 V tej fazi izberemo artifakt iz builda, ki smo ga ravnokar naredili. Nato ustvarimo pod Agentom le en **Powershell** script task.
