@@ -27,3 +27,14 @@ Nato lahko v **cmd** inštaliramo DocFX z ukazom: '*docfx init -q*'
 ## 'Release' faza
 V tej fazi izberemo artifakt iz builda, ki smo ga ravnokar naredili. Nato ustvarimo pod Agentom le en **Powershell** script task.
 Pod **script path** navedemo sledeče: *$(System.DefaultWorkingDirectory)/_dotfx/drop/deploy.ps1*  (ali z klikom na tri pike sami navigiramo do **deploy.ps1**)
+
+## DocFX Templates
+
+Če želimo na naši strani uporabiti enega od templatov, ki jih najdemo [tukaj](https://dotnet.github.io/docfx/templates-and-plugins/templates-dashboard.html), moramo slediti tem navodilom:
+1. **Downloadamo** zip od templata
+2. **Ustvarimo mapo** z imenom '*templates*' in v njo ekstrahiramo ta zip (mapo **material**)
+3. **Posodobimo docfx.json**, da bo pod *"template":* izgledal tako:
+     *"template": [ "default", "templates/material" ]* **('default' ohranimo!)**
+
+
+     
