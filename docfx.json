@@ -18,7 +18,10 @@
       {
         "files": [
           "api/**.yml",
-          "api/index.md"
+          "api/index.md",
+          "*.png",
+          "*.jpg",
+          "*.jpeg"
         ]
       },
       {
