@@ -43,3 +43,4 @@ V obeh primerih pazimo, da so porti pravilno konfigurirani glede na image, ki ga
 
 Na Kubernetes dashboardu bi sedaj morali videti naš deployment in toliko podov, kolikor smo jih definirali. Servis bi moral biti z statusom 'pending' za kratek čas, preden se mu dodeli External IP in je aplikacija dosegljiva.
 
+[Video z podobnimi postopki] (https://www.youtube.com/watch?v=K4uNl6JA7g8)
