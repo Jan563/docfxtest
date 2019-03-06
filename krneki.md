@@ -61,15 +61,15 @@ Kubernetes nam ponuja dostop poleg dashboarda tudi v command promptu, kjer ima v
 #### YAML
 Kreiranje osnovnega deploymenta:
 
-![Slika deploy](https://github.com/Jan563/AngularTest/blob/master/pic3.PNG)
+![Slika deploy](/images/pic3.PNG)
 
 Kreiranje servisa za nek deployment:
 
-![Slika deploy](https://github.com/Jan563/AngularTest/blob/master/pic4.PNG)
+![Slika deploy](/images/pic4.PNG)
 
 **Persistent volumes**
 
-![Slika deploy](https://github.com/Jan563/AngularTest/blob/master/volume1.PNG)
+![Slika deploy](./images/volume1.PNG)
 
 Kot se vidi na sliki, potrebujemo za persistent volume deployment, Persistent Volume claim zanj, Storage Class, Persistent volume sam in pa secret.
 Postopek je bolje opisan [na tem linku](https://pascalnaber.wordpress.com/2018/01/26/persistent-storage-and-volumes-using-kubernetes-on-azure-with-aks-or-azure-container-service/)*(pod 'Static Persistent Volume')*
