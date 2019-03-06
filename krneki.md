@@ -22,7 +22,7 @@ Pri vseh docker taskih potrebujemo delujoč service connection.
 
 Agent Job naj bo linux, saj so v primeru Windows bile neke komplikacije.
 
-![Build slika](/images/pic1.png)
+![Build slika](/images/pic1.PNG)
 
 ### 'Release' faza
 Nato skočimo v 'Releases' zavihek, kjer ustvarimo nov release in kot artifact določimo ta build. V proženju lahko izberemo, ali se release izvaja ročno ali avtomatsko po uspešno končanem buildu.
@@ -33,7 +33,7 @@ Pri release imamo dva načina postavitve storitve:
    - $(Release.ReleaseId) --image=janp110191/jan-repo:$(Build.BuildId) --port=80
    - Pri **expose** pa: deployment $(Release.ReleaseId) --name=service-$(Release.ReleaseId) --type=LoadBalancer --port=3000 --target-port=80
 
-![Release slika](/images/pic2.png)
+![Release slika](/images/pic2.PNG)
 
 2. **YAML navodili**
   S tem primerom naredimo enako '*Deploy to Kubernetes*' task, v katerem uporabimo '**apply**'. Tam kličemo našo YAML datoteko, ki bi jo vključili v naš GitHub repozitorij. (YAML mora vsebovati navodila za deployment in service tipa LoadBalancer)
