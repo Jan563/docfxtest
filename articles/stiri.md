@@ -35,6 +35,8 @@ Pod **script path** navedemo sledeče: *$(System.DefaultWorkingDirectory)/_dotfx
 2. **Ustvarimo mapo** z imenom '*templates*' in v njo ekstrahiramo ta zip (mapo **material**)
 3. **Posodobimo docfx.json**, da bo pod *"template":* izgledal tako:
      *"template": [ "default", "templates/material" ]* **('default' ohranimo!)**
+     
+Na strani od vsakega templata so tudi navodila za tega posebej ter po možnosti kakšne dodatne informacije.
 
 
      
