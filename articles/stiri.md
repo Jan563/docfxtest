@@ -1,6 +1,6 @@
 # Build in deploy MarkDown dokumentacije v FireStore hosting (z DocFX)
 
-### Postavitev DocFX v GitHub projektu
+## Postavitev DocFX v GitHub projektu
 
 Da postavimo DocFX, moramo uporabiti Chocolatey ali pa povlečemo .zip datoteko iz DocFX GitHub strani. To extractamo v našo projektno mapo, kateri dodamo PATH v Windows, da lahko kličemo docfx.exe iz Command Prompta.
 Nato lahko v **cmd** inštaliramo DocFX z ukazom: '*docfx init -q*'
