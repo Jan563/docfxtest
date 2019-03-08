@@ -8,5 +8,9 @@
   href: tri.md
 - name: Build in deploy MarkDown dokumentacije v FireStore hosting
   href: stiri.md
+- name: DevOps Agent na lastnem računalniku
+  href: pet.md
+- name: Kreiranje Docker containerjev z docker-compose
+  href: sest.md
   
 
