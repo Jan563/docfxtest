@@ -12,5 +12,7 @@
   href: pet.md
 - name: Kreiranje Docker containerjev z docker-compose
   href: sest.md
+- name: Angular Unit Testing v Azure Pipelines
+  href: sedem.md
   
 
