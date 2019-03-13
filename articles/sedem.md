@@ -26,3 +26,5 @@ Taski v njem se vrstijo tako:
 ![Test Units](/images/pic8.PNG)
 
 Po končanem Build-u bi morali v *'Tests'* tabu videti analizo.
+
+[Več informacij na tej povezavi](https://www.olivercoding.com/2019-01-19-angular-azure-devops/)
